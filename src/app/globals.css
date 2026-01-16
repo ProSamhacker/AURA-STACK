@@ -48,6 +48,13 @@ body {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100vh;
 }
 
 /* Custom scrollbar */
@@ -67,4 +74,3 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #a855f7, #f472b6);
 }
-
